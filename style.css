@@ -86,16 +86,16 @@ main {
 }
 
 @keyframes rotate {
-    from {
+    0% {
         transform: rotateY(0deg);
     }
-    to {
+    100% {
         transform: rotateY(360deg);
     }
 }
 
 .earth.rotating {
-    animation: rotate 2s linear infinite, float 3s ease-in-out infinite;
+    animation: rotate 4s linear infinite, float 3s ease-in-out infinite;
 }
 
 .intro {
